@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-center m-5">Aprendendo sobre grid</h1>
+
+    <ol>
+        <hr>
+        <li>
+            <!-- Grid -->
+            <div class="container mb-5">
+                <h3>container</h3>
+                <div class="row">
+                    <h3>row 1</h3>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h3>row 2</h3>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <hr>
+        <li>
+            <!-- Tamanho das Colunas -->
+
+            <div class="container mb-5">
+                <h3>container</h3>
+                <div class="row">
+                    <h3>row 1</h3>
+                    <div class="col-4">
+                        <h3>cols 4</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h3>row 2</h3>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col-8">
+                        <h3>cols 9</h3>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <!-- Limitação de colunas -->
+
+            <div class="container mb-5">
+                <h3>container</h3>
+                <div class="row">
+                    <h3>row 1 ilimitada</h3>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+
+                </div>
+
+                <div class="row row-cols-2">
+                    <h3>row 2 limitada</h3>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <!-- Alinhamento vertical -->
+
+            <div class="container mb-5">
+                <h3>container com row alinhada</h3>
+                <div class="row align-items-start" id="alinhamento">
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+
+                <div class="row align-items-center" id="alinhamento">
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+
+                <div class="row align-items-end" id="alinhamento">
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <!-- Alinhamento unitário -->
+
+            <div class="container mb-5">
+                <h3>container com elementos unitários alinhados</h3>
+                <div class="row align-items-start" id="alinhamento">
+                    <div class="col">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col align-self-center">
+                        <h3>col</h3>
+                    </div>
+                    <div class="col align-self-end">
+                        <h3>col</h3>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <!-- Coluna offset -->
+
+            <div class="container mb-5">
+                <h3>container</h3>
+                <div class="row">
+                    <div class="col-md-3 offset-md-1">
+                        <h3>col offset 1</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 offset-md-2">
+                        <h3>col offset 2</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 offset-md-3">
+                        <h3>col offset 3</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 offset-md-4">
+                        <h3>col offset 4</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 offset-md-3">
+                        <h3>col offset 3</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 offset-md-2">
+                        <h3>offset 2</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 offset-md-1">
+                        <h3>offset 1</h3>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <!-- Gutters -->
+
+            <div class="container" id="gutter">
+                <h3>container com Gutters</h3>
+                <div class="row gx-5">
+                    <div class="col">
+                        <p>GX</p>
+                    </div>
+                    <div class="col">
+                        <p>GX</p>
+                    </div>
+                </div>
+                <div class="row gy-4">
+                    <div class="col">
+                        <p>GY</p>
+                    </div>
+                    <div class="col">
+                        <p>GY</p>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col">
+                        <p>GY</p>
+                    </div>
+                    <div class="col">
+                        <p>GY</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <hr>
+    </ol>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

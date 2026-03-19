@@ -1,0 +1,51 @@
+.container{
+    border: 5px dotted blue;
+    padding: 60px;
+}
+
+.row{
+    border: 5px solid purple;
+    padding: 50px;
+}
+
+.col{
+    border: 5px dashed red;
+    padding: auto;
+}
+
+[class^="col"]{
+    border: 5px dashed red;
+    padding: auto;
+}
+
+.col-4{
+    border: 5px solid green;
+    padding: auto;
+}
+
+.col-8{
+    border: 5px solid green;
+    padding: auto;
+}
+
+#alinhamento{
+    height: 300px;
+}
+
+.container #especifico .col{
+    margin: 0;
+    padding: 0;
+}
+
+#gutter .row{
+    height: 200px;
+}
+
+#gutter .col-6{
+    margin: auto;
+}
+
+.row p {
+    border: 2px solid green;
+}
+
